@@ -3,7 +3,9 @@ environment:
   project: cdf-bootcamp-59-test
   validation-type: test
   selected:
-  - modules/
+    - modules/bootcamp/data_foundation
+    - modules/bootcamp/ice_cream_api
+    - modules/bootcamp/use_cases/oee
 
 variables:
   modules:
@@ -25,6 +27,7 @@ variables:
         icapi_extractors_client_id: ${ICAPI_EXTRACTORS_CLIENT_ID}
         icapi_extractors_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET}
 
+
       use_cases:
         oee:
           data_pipeline_oee_source_id: 2263f4fe-dc5e-40a8-ada6-c28af3e3c21c
@@ -32,7 +35,3 @@ variables:
           oee_space_name: oee_ts_space
           data_pipeline_oee_client_id: ${DATA_PIPELINE_OEE_CLIENT_ID}
           data_pipeline_oee_client_secret: ${DATA_PIPELINE_OEE_CLIENT_SECRET}
-  selected:
-    - modules/bootcamp/data_foundation
-    - modules/bootcamp/ice_cream_api
-    - modules/bootcamp/use_cases/oee

@@ -12,6 +12,7 @@ modules:
       - modules/bootcamp/data_foundation
       - modules/bootcamp/ice_cream_api
       - modules/bootcamp/use_cases/oee
+      
       is_selected: true
       location: .
     - key: icapi_ds_external_id
